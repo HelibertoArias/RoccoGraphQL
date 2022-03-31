@@ -8,7 +8,7 @@ using RoccoGraphQL.Domain;
 using RoccoGraphQL.GraphQL.Types;
 using RoccoGraphQL.Persistence.Repositories;
 
-namespace RoccoGraphQL.GraphQL.Features.Companies;
+namespace RoccoGraphQL.GraphQL.Companies;
 
 public class CompanyMutation : ObjectGraphType
 {

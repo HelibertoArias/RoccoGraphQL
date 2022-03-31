@@ -4,7 +4,7 @@
 
 using GraphQL.Types;
 
-namespace RoccoGraphQL.GraphQL.Features.Companies;
+namespace RoccoGraphQL.GraphQL.Companies;
 
 public class CompanySchema : Schema
 {

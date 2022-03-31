@@ -8,7 +8,7 @@ using GraphQL.Server.Ui.Playground;
 using GraphQL.SystemTextJson;
 using GraphQL.Types;
 using Microsoft.EntityFrameworkCore;
-using RoccoGraphQL.GraphQL.Features.Companies;
+using RoccoGraphQL.GraphQL.Companies;
 using RoccoGraphQL.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
