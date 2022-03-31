@@ -11,7 +11,7 @@
     <img src="images/logo.png" alt="Logo" width="180" height="80">
   </a>
 
-  <h3 align="center">Muvids Web API</h3>
+  <h3 align="center">Rocco Company GraphQL API</h3>
  
 
 
@@ -112,7 +112,7 @@ _To start using the application you should._
 To validate the GraphQL API you can try this in the Playground UI.
 
 1. Simple query: Run a query to get information for all companies.
-```json
+```
 {
   companies {
     name
@@ -123,7 +123,7 @@ To validate the GraphQL API you can try this in the Playground UI.
 ```
 
 2. Related query: Run a query to get information for all companies and related employees.
-```json
+```
 {
   companies {
     name
@@ -137,7 +137,7 @@ To validate the GraphQL API you can try this in the Playground UI.
 
 3. Mutation: Run this mutation to add a new company.
 
-```js
+```
 mutation($company: companyInput!){
     createCompany(company: $company){
         name
